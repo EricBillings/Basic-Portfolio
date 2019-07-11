@@ -3,13 +3,28 @@
     text-align: center;
 }
 
+a   {
+    border-right-style: solid;
+    border-right-color: #dddddd;
+    border-right-width: 2px; 
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+a:last-of-type  {
+    border: none;
+
+}
+
+
 a:visited  {
-    color: #4aaaa5;
+    color: #666666;
 
 }
 
 a:link  {
-    color: #4aaaa5;
+    color: #666666;
+    text-decoration: none;
 
 }
 
@@ -29,6 +44,7 @@ header  {
     width: 100%;
     height: 60px;
     text-align: center;
+    
 
 
 
@@ -39,7 +55,7 @@ header  {
     position: absolute;
     width: 200px;
     height: 60px;
-    left: 200px;
+    left: 155px;
     background:  #4aaaa5;
     color: #ffffff;
     font-size: 22px;
@@ -54,7 +70,9 @@ header  {
     right: 220px;
     background: #ffffff;
     color:  #4aaaa5;
-    padding-top: 20px;   
+    padding-top: 20px;  
+    width: 300px;
+    
 
 }
 
