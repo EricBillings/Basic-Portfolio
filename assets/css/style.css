@@ -45,9 +45,6 @@ header  {
     height: 60px;
     text-align: center;
     
-
-
-
 }
 
 #header-left    {
@@ -99,7 +96,7 @@ h2  {
     background: #ffffff;
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
-    border-bottom-width: 5px;
+    border-bottom-width: 2px;
 
 
 }
@@ -112,7 +109,6 @@ h2  {
     margin-right: 20px;
     float: left;
 
-
 }
 
 p   {
@@ -122,7 +118,6 @@ p   {
     color: #777777;
 
 }
-
 
 
 footer  {
@@ -137,15 +132,12 @@ footer  {
     border-top-width: 5px;
     border-top-color: #4aaaa5
 
-
 }
 
 form    {
     background: #ffffff;
     text-align: left;
-    margin: 20px;
-    
-    
+    margin: 20px;    
 
 }
 
@@ -162,7 +154,6 @@ input.message1[type=text]   {
     width: 100%;
     padding: 50px; 0;
     margin-top: 5px;
-
 
 }
 
@@ -181,25 +172,58 @@ input[type=submit]   {
     grid-template-columns: auto auto auto;
     grid-gap: 50px;
     margin: 10px;
-    background: red;
+    background: #fffff;
     padding: 20px;
     justify-content: left;
 
-    
   }
 
-img {
+#gridpic1 {
     grid-column: 1;
     grid-row: 1;
     width: 100px;
     height: 100px;
     align-content: center;
     z-index: 0;
-
 }
 
+#gridpic2 {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    z-index: 0;
+}
 
-.grid-label {
+#gridpic3 {
+    grid-column: 3;
+    grid-row: 1;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    z-index: 0;
+}
+
+#gridpic4 {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    z-index: 0;
+}
+
+#gridpic5 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    overflow: hidden;
+}
+
+#grid-label1 {
     grid-column: 1;
     grid-row: 1;
     width: 100px;
@@ -213,7 +237,54 @@ img {
 
 }
 
+#grid-label2 {
+    grid-column: 2;
+    grid-row: 1;
+    width: 100px;
+    height: 30px;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px; 
+    z-index: 1;
+}
 
+#grid-label3 {
+    grid-column: 3;
+    grid-row: 1;
+    width: 100px;
+    height: 30px;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px; 
+    z-index: 1;
+}
 
+#grid-label4 {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100px;
+    height: 30px;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px; 
+    z-index: 1;
+}    
 
-    
+#grid-label5 {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100px;
+    height: 30px;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px; 
+    z-index: 1;
+}
