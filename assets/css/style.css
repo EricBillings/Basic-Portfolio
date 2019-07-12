@@ -49,10 +49,10 @@ header  {
 
 #header-left    {
     float: left;
-    position: absolute;
+    position: relative;
     width: 200px;
     height: 60px;
-    left: 155px;
+    left: 205px;
     background:  #4aaaa5;
     color: #ffffff;
     font-size: 22px;
@@ -62,9 +62,9 @@ header  {
 }
 
 #header-right   {
-    float: left;
-    position: absolute;
-    right: 220px;
+    float: right;
+    position: relative;
+    right: 200px;
     background: #ffffff;
     color:  #4aaaa5;
     padding-top: 20px;  
@@ -74,12 +74,15 @@ header  {
 }
 
 main    {
-width: 960px;
-height: 400px;
-background: #ffffff;
-text-align: center;
-margin: auto;
-margin-top: 20px;
+    position: absolute;
+    left: 205px;
+    width: 960px;
+    height: 400px;
+    background: #ffffff;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+     
 
 }
 
