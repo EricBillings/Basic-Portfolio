@@ -178,10 +178,42 @@ input[type=submit]   {
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    margin: 10px;
+    background: red;
+    padding: 20px;
+    justify-content: left;
+
     
   }
+
+img {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    z-index: 0;
+
+}
+
+
+.grid-label {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100px;
+    height: 30px;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 10px; 
+    z-index: 1;
+
+}
+
+
 
 
     
